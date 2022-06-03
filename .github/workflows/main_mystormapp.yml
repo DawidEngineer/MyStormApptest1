@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'MyStormApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EF003AE21CD04C03AF1E6111A439E0AB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C7086DDAA0304EAFB1C6029BAE914EB2 }}
