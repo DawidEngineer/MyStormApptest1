@@ -92,9 +92,14 @@ ambient_temp = 5
 amper = 5
 
 
-kettle = Kettle()
+
 
 @app.route("/")
 def home():
+    kettle = Kettle()
     return kettle.temperature()
+
+@app.route("/test/")
+def home():
+    return "test jest git"
 
